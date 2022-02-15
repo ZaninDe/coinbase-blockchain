@@ -6,9 +6,13 @@ export default function Home() {
   return (
    <Wrapper>
      <WalletConnect>
-      <button onClick={() => connectWallet('injected')}>
-        Connect MetaMask
-      </button>
+      <Button onClick={() => connectWallet('injected')}>
+        Connect Wallet
+      </Button>
+      <Details>
+        You need Chrome to be
+        <br/> able to run this app. 
+      </Details>
      </WalletConnect>
    </Wrapper>
   )
@@ -32,4 +36,26 @@ const WalletConnect = styled.div`
 `
 
 const Button = styled.div`
+  border: 1px solid #282b2f;
+  padding: 0.8rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-radius: 0.4rem;
+  background-color: #3773f5;
+  color: #000;
+
+  transition: filter 0.2s;
+
+  &:hover {
+    cursor: pointer;
+    filter: brightness(0.5)
+  }
+`
+
+const Details = styled.div`
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 500;
+  color: #282b2f;
 `
