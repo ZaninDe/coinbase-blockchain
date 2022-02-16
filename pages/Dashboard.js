@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../components/Header'
 
-export function Dashboard({address}) {
+const Dashboard = ({address})  => {
   return <Header />
 }
 

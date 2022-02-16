@@ -7,7 +7,7 @@ const connectors = {
   injected: {},
 }
 
-function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }) => {
   return (
     <ThirdwebWeb3Provider // add auth in all of the application
       supportedChainIds={supportedChainIds}
