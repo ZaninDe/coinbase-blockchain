@@ -7,7 +7,8 @@ import { coins } from '../static/coins'
 const Portifolio = () => {
   return (
    <Wrapper>
-      <PortifolioTable>
+     <Content>
+     <PortifolioTable>
       <TableItem>
         <Title>Your Assests</Title>
       </TableItem>
@@ -31,6 +32,7 @@ const Portifolio = () => {
         ))}</div>
       </Table>
     </PortifolioTable>
+     </Content>
    </Wrapper>
   )
 }
