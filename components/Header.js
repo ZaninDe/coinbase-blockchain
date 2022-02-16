@@ -3,9 +3,15 @@ import styled from 'styled-components'
 
 const Header = () => {
   return (
-    <Button style={{ backgroundColor: '#3773f5', color: '#000'}}>
-      Buy / Sell
-    </Button>
+    <Wrapper>
+      <Title>Assets</Title>
+        <ButtonsContainer>
+          <Button style={{ backgroundColor: '#3773f5', color: '#000'}}>
+            Buy / Sell
+          </Button>
+          <Button>Send / Receive</Button>
+        </ButtonsContainer>
+    </Wrapper>
   )
 }
 
@@ -35,9 +41,11 @@ const Button = styled.div`
   font-weight: 500;
   border-radius: 0.4rem;
   margin-right: 1rem;
+  transition: filter 0.3s;
   
   &:hover{
-    cursor: pointer;
+    cursor: pointer; 
+    filter: brightness(0.5)
   }
 `
 

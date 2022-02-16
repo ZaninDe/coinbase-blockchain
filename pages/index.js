@@ -43,7 +43,7 @@ const WalletConnect = styled.div`
   align-items: center;
 `
 
-const Button = styled.div`
+const Button = styled.button`
   border: 1px solid #282b2f;
   padding: 0.8rem;
   font-size: 1.3rem;
