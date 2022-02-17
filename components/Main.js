@@ -1,11 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
 import Portifolio from './Portifolio'
+import Promos from './Promos'
 
 const Main = () => {
   return (
     <Wrapper>
       <Portifolio />
+      <Promos />
     </Wrapper>
   )
 }
