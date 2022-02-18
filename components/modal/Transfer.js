@@ -40,9 +40,11 @@ const Transfer = () => {
             <Icon>
               <img src="https://avatars.githubusercontent.com/u/60481984?v=4" alt=""/>
             </Icon>
+            <CoinName>Ethereum</CoinName>
           </CoinSelectList>
         </Row>
       </TransferForm>
+      
     </Wrapper>
   )
 }
