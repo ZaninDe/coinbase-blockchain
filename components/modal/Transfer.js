@@ -44,7 +44,9 @@ const Transfer = () => {
           </CoinSelectList>
         </Row>
       </TransferForm>
-      
+      <Row>
+        <Continue>Continue</Continue>
+      </Row>
     </Wrapper>
   )
 }
