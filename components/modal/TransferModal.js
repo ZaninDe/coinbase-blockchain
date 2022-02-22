@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Transfer from './Transfer'
+import Receive from './Receive'
 import CoinSelector from './CoinSelector'
 import { TailSpin } from  'react-loader-spinner'
 import styled from 'styled-components'
@@ -28,7 +29,13 @@ const TransferModal = ({ sanityTokens, thirdWebTokens, walletAddress }) => {
         />
         )
       case 'receive':
-        return <h2>receive</h2>
+        return (
+          <Receive 
+            setAction={setAction}
+            selectedToken={selectedToken}
+            walletAddress={walletAddress}
+          />
+        )
       case 'select':
         return ( 
           <CoinSelector 
