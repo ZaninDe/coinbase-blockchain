@@ -74,7 +74,7 @@ $ yarn dev
 ```
 Go to http://localhost:3000/ to see the result locally.
 
-<h3>Or access the deployed version <a src="https://coinbase-blockchain-vert.vercel.app/">Here</a> </h3>
+<h3>Or access the deployed version <a href="https://coinbase-blockchain-vert.vercel.app/">Here</a> </h3>
 
 
 # :bug: Issues
