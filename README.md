@@ -19,11 +19,6 @@
   :moneybag: manage your cryptocurrencies
 </p>
 
-<div align="center">
-  <sub> Made with 💖 by
-    <a href="https://github.com/ZaninDe">Gabriel Zanin.
-  </sub>
-</div>
 
 # 📌 Contents
 
@@ -90,7 +85,7 @@ Create a <a href="https://github.com/ZaninDe/coinbase-blockchain/issues">new iss
 
 # :page_facing_up: License
 
-This project is under the [MIT license](./LICENSE).
-Made with 💖 by [Gabriel Zanin](https://www.linkedin.com/in/gabriel-zanin-ab802a206//). 
+  This project is under the [MIT license](./LICENSE).</br>
+  Made with 💖 by [Gabriel Zanin](https://www.linkedin.com/in/gabriel-zanin-ab802a206//). 
 
-Thank you! 🌠
+  Thank you! 🌠
