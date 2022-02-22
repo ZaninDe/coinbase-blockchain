@@ -1,5 +1,8 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
+import imageUrlBuilder from '@sanity/image-url'
+import { client } from '../../lib/sanity'
+import { FaCheck } from 'react-icons/fa'
 
 const CoinItem = ({
   token,
@@ -10,8 +13,45 @@ const CoinItem = ({
   sanityTokens,
   thirdWebTokens,
 }) => {
+  const [balance, setBalance] = useState('Fetchig...')
+  const [imageUrl, setImageUrl] = useState(null)
+
+  useEffect(() => {
+    const getBalance = async () => {
+      let activeThirdWebToken
+
+      thirdWebTokens.map(thirdWebToken => {
+        if(thirdWebToken.address === token.contractAddress) {
+          activeThirdWebToken = thirdWebToken
+        }
+      })
+
+      const balance = await activeThirdWebToken.balanceOf(sender)
+
+      return await setBalance(balance.displayValue.split('.')[0])
+    }
+      const getImgUrl = async () => {
+        const imgUrl = imageUrlBuilder(client).image(token.logo).url()
+        setImageUrl(imgUrl)
+      }
+
+      getImgUrl()
+      getBalance()
+  }, [])
   return (
-    <div>{sanityTokens[0].symbol}</div>  
+    <Wrapper 
+      style={{
+        backgroundColor: selectedToken.name === token.name && '#141519'
+      }}
+      onClick = {() => {
+        setSelectedToken(token)
+        setAction('send')
+      }}
+    >
+      <Main>
+        <Icon><img src={imageUrl} alt='' /></Icon>
+      </Main>
+    </Wrapper>  
   )
 }
 
