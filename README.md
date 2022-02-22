@@ -36,11 +36,11 @@
 
 # :camera: Screenshots
 <div align="center">
-   <img src="./.github/connect-button.png" width="350px">
-   <img src="./.github/login.png" width="350px">
-   <img src="./.github/dashboard.png" width="200p">
-   <img src="./.github/send.png" width="350px">
-   <img src="./.github/crypto-select.png" width="350px">
+   <img src="./.github/connect-button.png" width="400px">
+   <img src="./.github/login.png" width="400px">
+   <img src="./.github/dashboard.png" width="400px">
+   <img src="./.github/send.png" width="400px">
+   <img src="./.github/crypto-select.png" width="400px">
 </div>
    
  # :camera: Gif
