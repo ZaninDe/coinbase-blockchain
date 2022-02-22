@@ -62,7 +62,7 @@ This project was made using the follow technologies:
 
 ```bash
 # Clone Repository
-$ git clone https://github.com/ZaninDe/dtmoney.git
+$ git clone https://github.com/ZaninDe/coinbase-blockchain.git
 ```
 
 ```bash
