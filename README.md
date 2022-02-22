@@ -1,34 +1,96 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+   <img src="./.github/coinbase-logo.png" alt="App logo" width="400"/>
+</p>
 
-## Getting Started
+<p align="center">	
+   <a href="https://www.linkedin.com/in/gabriel-zanin-ab802a206//">
+      <img alt="ZaninDe" src="https://img.shields.io/badge/-ZaninDe-5965e0?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
+<!--   <img alt="Languages" src="https://img.shields.io/github/languages/count/ZaninDe/dtmoney?color=%235963C5" />
+  <img alt="lastcommit" src="https://img.shields.io/github/last-commit/ZaninDe/dtmoney?color=%235761C3" />
+  <img alt="License" src="https://img.shields.io/github/license/ZaninDe/dtmoney?color=%235E69D7" />
+  <img alt="Issues" src="https://img.shields.io/github/issues/ZaninDe/dtmoney?color=%235965E0"> -->
+  <a href="mailto:gabriel.zaninde@gmail.com">
+   <img alt="Email" src="https://img.shields.io/badge/-gabriel.zaninde@gmail.com-%23525DCB" />
+  </a>
+</p>
 
-First, run the development server:
+<p align="center">
+  :moneybag: manage your cryptocurrencies
+</p>
+
+<div align="center">
+  <sub> Made with 💖 by
+    <a href="https://github.com/ZaninDe">Gabriel Zanin.
+  </sub>
+</div>
+
+# 📌 Contents
+
+* [Screenshots](#camera-screenshot) 
+* [Technologies](#rocket-technologies) 
+* [How to Run](#computer-how-to-run)
+* [Issues](#bug-issues)
+* [Contributing](#sparkles-issues)
+* [License](#page_facing_up-license)
+
+# :camera: Screenshots
+<div align="center">
+   <img src="./.github/connect-button.png" width="200px">
+   <img src="./.github/login.png" width="200px">
+   <img src="./.github/dashboard.png" width="200p">
+   <img src="./.github/send.png" width="200px">
+   <img src="./.github/crypto-select.png" width="200px">
+</div>
+   
+ # :camera: Gif
+<div align="center">
+   <img src="./.github/show.gif" width="500px">
+</div>
+
+# :rocket: Technologies
+This project was made using the follow technologies:
+
+* [Nextjs](https://nextjs.org/)      
+* [React](https://reactjs.org/)      
+* [Styled Components](https://styled-components.com/)
+* [ThirdWeb](https://thirdweb.com/)
+* [Sanity](https://www.sanity.io/)
+* [Metamask](https://metamask.io/)
+
+# :computer: How to run
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone Repository
+$ git clone https://github.com/ZaninDe/dtmoney.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+# Install Dependencies
+$ yarn
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# Run Aplication
+$ yarn dev
+```
+Go to http://localhost:3000/ to see the result locally.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+<h3>Or access the deployed version <a src="https://coinbase-blockchain-vert.vercel.app/">Here</a> </h3>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
+# :bug: Issues
 
-To learn more about Next.js, take a look at the following resources:
+Create a <a href="https://github.com/ZaninDe/coinbase-blockchain/issues">new issue report</a>, it will be an honor to be able to help you solve and further improve our application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# :sparkles: Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- Fork this repository;
+- Create a branch with your feature: `git checkout -b my-feature`;
+- Commit your changes: `git commit -m 'feat: My new feature'`;
+- Push to your branch: `git push origin my-feature`.
 
-## Deploy on Vercel
+# :page_facing_up: License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is under the [MIT license](./LICENSE).
+Made with 💖 by [Gabriel Zanin](https://www.linkedin.com/in/gabriel-zanin-ab802a206//). 
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you! 🌠
