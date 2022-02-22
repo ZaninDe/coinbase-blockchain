@@ -36,16 +36,16 @@
 
 # :camera: Screenshots
 <div align="center">
-   <img src="./.github/connect-button.png" width="200px">
-   <img src="./.github/login.png" width="200px">
+   <img src="./.github/connect-button.png" width="350px">
+   <img src="./.github/login.png" width="350px">
    <img src="./.github/dashboard.png" width="200p">
-   <img src="./.github/send.png" width="200px">
-   <img src="./.github/crypto-select.png" width="200px">
+   <img src="./.github/send.png" width="350px">
+   <img src="./.github/crypto-select.png" width="350px">
 </div>
    
  # :camera: Gif
 <div align="center">
-   <img src="./.github/show.gif" width="500px">
+   <img src="./.github/show.gif" width="700px">
 </div>
 
 # :rocket: Technologies
